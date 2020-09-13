@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	background: black;
+}
+.cotainer{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 60vh;
+	background-color: rgb(120, 115, 115);
+	border-radius: 20px;
+	padding: 40px 2%;
+	background-repeat: no-repeat;
+	list-style-image: none;
+	padding: 40px 2%;
+	background-image: url(../imagens/header.jpg);
+}
+header nav{
+	float: right;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav li{
+	float: left;
+	padding: 0 20px;
+}
+header li a{
+	text-decoration: none;
+	color: white;
+}
+header .logo{
+	float: left;
+	width: 500px;
+	height: 350px;
+	background-image: url(../imagens/logo2.0.png);
+	background-size: cover;
+}
+	.img{
+		background-image: url(../imagens/cardapio4.png);
+		width: 100%;
+		height: 33%;
+		background-repeat: no-repeat;
+}
+table tr td{
+	background: white;
+	border:1px solid black;
+	padding: 5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+	.table{
+		display: flex;
+}
+	.salgado{
+		float: left;
+		width: 500px;
+		height: 500px;
+		margin-left:20px;
+	}
+	.doce{
+		float: right;
+		width: 350px;
+		height: 500px;
+		margin-left: 20px;
+	}
