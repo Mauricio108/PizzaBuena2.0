@@ -5,7 +5,7 @@
 }
 html,body{
 	height: 100%;
-	background: black;
+	/*background: black;*/
 }
 .cotainer{
 	max-width: 1280px;
@@ -43,12 +43,7 @@ header .logo{
 	background-image: url(../imagens/logo2.0.png);
 	background-size: cover;
 }
-	.img{
-		background-image: url(../imagens/cardapio4.png);
-		width: 100%;
-		height: 33%;
-		background-repeat: no-repeat;
-}
+
 table tr td{
 	background: white;
 	border:1px solid black;
@@ -70,3 +65,19 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 		height: 500px;
 		margin-left: 20px;
 	}
+	.flex-mosaico{
+		display: flex;
+	}
+	.item-1-mosaico{
+		background-position: center;
+		background-size: cover;
+		width: 30%;
+	}
+	.item-2-mosaico{
+		width: 70%;
+	}
+footer{
+	text-align: center;
+	color: red;
+	height: 30%;
+}
