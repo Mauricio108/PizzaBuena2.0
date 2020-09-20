@@ -55,16 +55,17 @@ table tr td{
 tr:nth-child(even) {background-color: #f2f2f2;}
 	.table{
 		display: flex;
+		width: 70%;
+		height:500px;
+
 }
 	.salgado{
-		float: left;
-		width: 500px;
+		width: 40%;
 		height: 500px;
 		margin-left:20px;
 	}
 	.doce{
-		float: right;
-		width: 350px;
+		width: 30%;
 		height: 500px;
 		margin-left: 20px;
 	}
@@ -82,6 +83,38 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	.item-2-mosaico{
 		width: 70%;
 	}
+/*=========banner======*/
+/*	.banner{
+		width: 30%;
+		height:500px;
+	}
+	.item-1-banner{
+		background-position: relative;
+		background-size: cover;
+		width: 30%;
+		height: 500px;
+	}
+
+
+
+/*------combo-----*/
+	.flex-servico{
+		display: flex;
+		height: 300px;
+		width: 100%;
+		border-radius: 2px solid;
+		background-color: 
+	}
+	.item-1-extra{
+		background-position: center;
+		background-size: cover;
+		width: 30%
+	}
+	.item-2-extra{
+		width: 70%;
+	}
+
+/*========rodape======*/
 footer{
 	text-align: center;
 	color: red;
