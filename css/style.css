@@ -46,6 +46,13 @@ header .logo{
 	background-image: url(../imagens/logo2.0.png);
 	background-size: cover;
 }
+table{
+	position: relative;
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	box-sizing: border-box;
+}
 
 table tr td{
 	background: white;
@@ -53,12 +60,7 @@ table tr td{
 	padding: 5px;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
-	.table{
-		display: flex;
-		width: 70%;
-		height:500px;
 
-}
 	.salgado{
 		width: 40%;
 		height: 500px;
@@ -98,33 +100,56 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 /*------combo-----*/
+	.col-md-4{
+		box-shadow: 1px 1px 4px 1px;
+		margin: 10px;
+	}
 	.flex-servico{
+
+		padding: 30px;
 		display: flex;
 		height: 300px;
 		width: 100%;
 		border-radius: 2px solid;
-		background-color: 
+		background-color:
 	}
 	.item-1-extra{
-		background-position: center;
-		background-size: cover;
-		width: 30%
+		position: relative;
+		width: 30%;
+		height: 200px;
 	}
 	.item-2-extra{
+		background: rgb(46, 44, 44,0);
 		width: 70%;
+		padding-left: 10px;
 	}
+p{
+	padding-top: 20px;
+	text-align: justify;
+	text-indent: 50px;
+}
+figure.foto-legenda figcaption{
+	position: relative;
+
+}
+/*======mosaico====*/
+	.col-md-5{
+		box-shadow: 1px 1px 4px 1px;
+		margin: 10px;
+	}
+
 
 /*========rodape======*/
 footer{
+	position: relative;
 	text-align: center;
 	color: red;
 	width: 100%;
 	background:#000;
 	padding: 50px 0px 0px 0px;
-	background-size: cover;
 }
-	.item-rede-social{
-		display: inline-block;
+footer.item-rede-social{
 		width: 20px;
 		height: 20px;
+		padding-left: 20px;
 	}
