@@ -10,15 +10,14 @@
     <link href="css/style.css" rel="stylesheet"/>	
 </head>
 <body>
-	<header>
+	<header><!--====header===-->
 		<div class="container">
 				<form>
 					<input type="seach" name="buscar" value="oque voce procura">
 					<input type="submit" name="nane" value="Buscar">
 				</form>
 		</div>
-			<div>
-			<div class="logo"></div>
+			<div class="manu">
 				<nav>
 					<ul>
 						<li><a href="home">HOME</a></li>
@@ -29,11 +28,19 @@
 					</ul>
 				</nav>
 			</div>
-		</div><!--containe-->
+			<div class="logo">
+				<img src="imagens/logo2.0.png" alt="logo"
+				title="pizzabuenna" width="500px" height="390px" align="right">
+			</div>
+		</div>
 	</header>
+<!--=======letreiro=====-->
+	<div class="box">
+		<img src="imagens/cardapio4.png" width="400px" height="150px" align="right">
+	</div>
+<!--==========tabela==========-->
 	<section class="table">
-	<div class="img"></div>
-	<div class="containe">
+		<div class="containe">
 		<table class="salgado">
 			<tr>	
 				<td>Sabores Salgado</td> 	
@@ -111,7 +118,7 @@
 				<td>$29,00</td>
 			</tr>
 		</table><!--pizzasalgada-->
-		<table class="doce">
+		<table class="doce" >
 			<tr>
 				<td>Sabores Doce</td>
 				<td>40cm</td>
@@ -168,18 +175,18 @@
 				<td>$29,00</td>
 			</tr>
 		</table><!--pizzadoce-->
-
-	</div><!--containe-->
+		<img src="imagens/banner.png" title="banner" width="300px" height="500px">
+	</div>
 	</section>
-		<!-----------promoção------------->
+		<!-----------combo-romantico------------->
 	<section class="extra">
 		<div class="col-md-4">
 			<div class="flex-servico">
 				<figure class="foto-legenda">
 					<div class="item-1-extra">
-						<img src="imagens/pizza-vinho.jpg"></div>
+						<img src="imagens/pizza-vinho.jpg" width="400px" height="300px">
 						<figcaption>
-							<h2>Adicionar ao Carrinho</h2>
+							<h2 class="Sand">Adicionar ao Carrinho</h2>
 						</figcaption>
 				</figure>
 				<div class="item-2-extra">
@@ -189,8 +196,8 @@
 				</div>
 			</div><!--flex-->
 		</div><!--col-md-4-->
-	</section><!--promoção-->
-
+	</section>
+<!--=======novidade======-->
 
 <article class="mosaico">
 	<div class="col-md-5"> 
@@ -206,15 +213,20 @@
 	</div><!--fex-mosaico-->
 	</div><!--col-md-5-->
 </article><!--mosaico-->
+<!--=========rodape=========-->
   <footer>
-  	<div class="containe">
+  	<div class="theend">
   		<div class="row">
   			<div class="col-md-6">
   				<ul class="nav">
-  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-twiter.png" alt="twiter"></a></li>
-  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-insta.png" alt="instagran"></a></li>
-  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-app.jpg" alt="whatapp"></a></li>
-  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-face.png" alt="facebook"></a></li>
+
+  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-twiter.png" alt="twiter" width="40px" height="40px" align="right"></a></li>
+
+  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-insta.png" alt="instagran"width="40px" height="40px"align="right"></a></li>
+
+  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-app.jpg" alt="whatapp" width="40px" height="40px"align="right"></a></li>
+
+  					<li class="item-rede-social"><a href="#"><img src="imagens/logo-face.png" alt="facebook" width="40px" height="40px"align="right"></a></
   				</ul>
 	  		</div><!--col-md-6-->
 
@@ -222,7 +234,7 @@
 	  				<br><p>Projeto HTML Progressivo -Todos os direitos reservado &copy; 2020</p></br>
 	  			</div><!--col-md-6-->
   		</div><!--row-->
-  	</div><!--containe-->
+  	</div><!---->
   </footer>	
 </body>
 </html>
