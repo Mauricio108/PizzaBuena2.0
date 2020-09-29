@@ -5,58 +5,62 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 html,body{
-	height: 100%;
-	/*background-image: url(../imagens/background.jpg);*/
+
+	background-image: url(../imagens/background.jpg);
 	background-repeat: no-repeat;
-	list-style-image: none;
-	background-position: left top;
   	background-attachment: fixed;
-  	width: 100%;
 }
 header{
+	padding: 30px;
 	width: 100%;
 	height: 60vh;
 	border-radius: 20px;
-	padding: 40px 2%;
+	background-color: black;
+	background-image: url(../imagens/logo2.0.png);
 	background-repeat: no-repeat;
-	list-style-image: none;
-	padding: 40px 2%;
-	background-image: url("../imagens/header.jpg");
+	background-position: right top;
 }
-header nav{
-	padding-top: 20px;
-}
+
+
 header nav ul{
 	list-style-type: none;
+	padding-top: 30px;
 }
 header nav li{
 	float: left;
-	padding: 0 20px;
+	padding: 20px;
 }
 header li a{
 	text-decoration:none;
 	color: white;
-	}
+	border: 1px solid white;
+	box-shadow: 4px 4px 4px white;
+}
+a:hover{background-color: rgb(225, 235, 52);color: black;}
+
+
 /*=======tabela========*/
 #table{
-	background-color: rgb(166, 161, 161);
+
 	border:2px solid;
 	padding: 20px;
-	height: 580px;
-	width: 70%;
+	width: 100%;
 }
 table td{
 	padding: 5px;
 	border:1px solid;
+	background-color: white;
+	width: 300px;
 }
 h1{
 	color: red;
-	text-align: left;
-	margin-left: 40px;
-	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
 }
+
 .containe .salgado{
 	float: left;
 	margin-left: 30px;
@@ -64,19 +68,22 @@ h1{
 .containe .doce{
 	float: left;
 	margin-left: 30px;
+	margin-top: 20px;
 }
 
 table tr:nth-child(even) {background-color: #f2f2f2;}
 /*========banner==========*/
-.banner{
+/*.banner{
 	position: absolute;
 	left:1080px; 
-	top:500px;
+	top:500px;*/
 }
 	/*------combo romantico-----*/
+
 	.col-md-4{
 		box-shadow: 1px 1px 4px 1px;
 		margin: 10px;
+		background-color: white;
 	}
 	.flex-servico{
 		padding: 30px;
@@ -85,34 +92,34 @@ table tr:nth-child(even) {background-color: #f2f2f2;}
 		width: 100%;
 		border-radius: 2px solid;
 	}
-figure .item-1-extra{
-	background-color: black;
-	height: 300px;
-}
+
 
 
 	.item-2-extra{
 		background: rgb(46, 44, 44,0);
 		width: 70%;
 		padding-left: 10px;
+
 	}
 p{
 	padding-top: 20px;
 	text-align: justify;
 	text-indent: 50px;
+	width: 100%;
 }
 
 }
 /*===============novidade=============*/
 	.col-md-5{
-		box-shadow: 1px 1px 4px 1px;
-		margin: 10px;
+		padding: 20px;
 	}
 	.flex-mosaico{
 		display: flex;
 		width: 100%;
 		height: 340px;
 		margin: 13px;
+		background-color: white;
+		box-shadow: 1px 1px 4px 1px;
 	}
 	.item-1-mosaico{
 		background-position: left;
@@ -123,13 +130,15 @@ p{
 	.item-2-mosaico{
 		width: 70%;
 	}
-
+.
 
 
 /*======mosaico====*/
-	.col-md-5{
+	.col-md-6{
 		box-shadow: 1px 1px 4px 1px;
-		margin: 10px;
+	}
+	.{
+		background-color: white;
 	}
 	
 
